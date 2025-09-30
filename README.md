@@ -67,7 +67,8 @@ It’s like if **Artisan had a caffeine overdose** and decided to **automate you
 | `laris deploy`           | Deploys with **one keystroke** (no excuses now) |  
 | `laris git push`         | Pushes to Git **without typing the whole thing** |  
 | `laris npm run dev`      | Runs npm **because frontend is hard** |  
-| `laris docs generate`    | Generates docs (so you don’t have to) |  
+| `laris docs generate`    | Generates docs (so you don't have to) |  
+| `laris performance`      | Monitor Laravel app performance **like a pro** |  
 
 ---
 
@@ -180,6 +181,28 @@ Refactor any PHP class using AI (SOLID, PSR-12, clean code):
 ```bash
 ~> laris laris:ai:refactor:class
 ```
+
+---
+
+# Performance Monitoring
+
+Monitor and analyze your Laravel application's performance with comprehensive metrics:
+
+```bash
+~> laris laris:performance
+~> laris laris:performance --detailed
+~> laris laris:performance --database
+~> laris laris:performance --memory
+~> laris laris:performance --routes
+~> laris laris:performance --export=json
+```
+
+The performance command provides:
+- **Database Query Analysis** - Slow queries, N+1 problems, and optimization suggestions
+- **Memory Usage Monitoring** - Peak memory, memory leaks, and optimization tips
+- **Route Performance** - Response times, bottlenecks, and caching recommendations
+- **System Resource Usage** - CPU, disk I/O, and server performance metrics
+- **Optimization Recommendations** - Actionable suggestions to improve your app's performance
 
 ---
 
