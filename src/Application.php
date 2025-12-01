@@ -31,6 +31,7 @@ use Laris\Commands\HookCommand;
 use Laris\Commands\NewCommand;
 use Laris\Commands\NewCommandLaris;
 use Laris\Commands\NpmCommand;
+use Laris\Commands\PerformanceCommand;
 use Laris\Commands\ProjectSelectCommand;
 use Symfony\Component\Console\Application as SymfonyApplication;
 use Symfony\Component\Console\Input\ArgvInput;
@@ -108,6 +109,7 @@ class Application extends SymfonyApplication
         $this->add(new ComposerCommand());
         $this->add(new DbCommand());
         $this->add(new NpmCommand());
+        $this->add(new PerformanceCommand());
         $this->add(new BackupCommand());
         $this->add(new ConfigCommand());
         $this->add(new DeployCommand());
