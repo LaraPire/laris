@@ -1,4 +1,4 @@
-# **LARIS** - The Ultimate Laravel Artisan Companion You Didn’t Know You Needed!  
+# **Laris** - The Ultimate Laravel Artisan Companion You Didn’t Know You Needed!  
 
 
 
